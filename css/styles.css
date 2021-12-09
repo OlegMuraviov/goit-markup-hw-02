@@ -75,6 +75,7 @@ body {
   color: var(--bgc-additional);
 }
 .button-studio {
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -83,6 +84,7 @@ body {
   cursor: pointer;
 }
 .button-portfolio {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -92,17 +94,19 @@ body {
 }
 .button-portfolio:focus,
 .button-portfolio:hover {
+  color: var(--bgc-button-portfolio);
   background-color: var(--bgc-button-main);
 }
 
 /* advantages styles */
-.section-advantages-title {
+.studio-advantages-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   color: var(--main-text-color);
+  text-transform: uppercase;
 }
-.section-advantages-desctiption {
+.studio-advantages-desctiption {
   font-size: 14px;
   line-height: 1.71;
   color: var(--additional-text-color);
@@ -123,6 +127,17 @@ body {
 .team-positions {
   font-size: 16px;
   line-height: 1.19;
+  color: var(--additional-text-color);
+}
+.projects-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--main-text-color);
+}
+.projects-type {
+  font-size: 16px;
+  line-height: 1.88;
   color: var(--additional-text-color);
 }
 /* footer styles */
